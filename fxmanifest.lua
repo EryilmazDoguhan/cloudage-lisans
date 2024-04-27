@@ -1,5 +1,3 @@
--- ELUSED DEV --
-
 fx_version 'bodacious'
 game 'gta5'
 author 'Cloudage'
