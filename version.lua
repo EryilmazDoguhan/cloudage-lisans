@@ -1,4 +1,4 @@
-PerformHttpRequest("https://api.github.com/repos/cloudagetr/cloudage-lisans/releases/latest", function(err, text, headers)
+PerformHttpRequest("https://api.github.com/repos/cloudagetr/rs-lisans/releases/latest", function(err, text, headers)
 	Citizen.Wait(1000)
 	if text then
 		local info = json.encode(text) info = json.decode(text)
