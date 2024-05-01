@@ -2,7 +2,7 @@ PerformHttpRequest("https://api.github.com/repos/cloudagetr/rs-lisans/releases/l
 	Citizen.Wait(1000)
 	if text then
 		local info = json.encode(text) info = json.decode(text)
-		local currentVersion = 'V1.9'
+		local currentVersion = "V1.9"
 		local newestVersion = info.tag_name
 
 		if ( newestVersion ~= nil ) then
